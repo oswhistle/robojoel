@@ -2,7 +2,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 # Initialize a Slack client using an API token
-SLACK_TOKEN = "xoxp-12623173760-12619319411-4714248866675-cba372ae03cb90d66f7c7568fa508c18"
+SLACK_TOKEN = "xoxp-12623173760-12619319411-4772998756407-a13258d98da631dbbff2f35bbcfd3e57"
 client = WebClient(token=SLACK_TOKEN)
 
 # The channel and message to watch for
